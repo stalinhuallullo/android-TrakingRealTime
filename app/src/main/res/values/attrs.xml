@@ -1,0 +1,13 @@
+<resources>
+    <!-- CustomItem big -->
+    <declare-styleable name="CustomItemBig">
+        <attr name="enableButton" format="boolean" />
+        <attr name="itemEnabled" format="boolean" />
+        <attr name="itemTitle" format="string" />
+        <attr name="itemText" format="string" />
+        <attr name="subItemText" format="string" />
+        <attr name="isDetail" format="boolean" />
+        <attr name="iconDown" format="reference" />
+        <attr name="tagItem" format="string" />
+    </declare-styleable>
+</resources>

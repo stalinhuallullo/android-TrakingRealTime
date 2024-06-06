@@ -38,6 +38,7 @@ android {
 
     buildFeatures {
         buildConfig = true
+        viewBinding = true
     }
 }
 
@@ -48,10 +49,12 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation("com.android.tools.build:gradle:8.4.1")
     implementation("com.vmadalin:easypermissions-ktx:1.0.0")
     implementation("de.hdodenhof:circleimageview:3.1.0")         // circle image view
     implementation("com.mikhaellopez:circularimageview:4.3.1")
     implementation("com.balysv:material-ripple:1.0.2")
+    implementation("com.github.bumptech.glide:glide:4.16.0")
 
     val retrofitVersion = "2.9.0"
 
@@ -66,10 +69,10 @@ dependencies {
     implementation(retrofitDependency)
     implementation(gsonDependency)
 
-    implementation("com.google.android.material:material:1.6.1")
-    implementation("com.google.android.gms:play-services:7.0.0")
-            implementation("com.google.android.gms:play-services-maps:18.0.2")
-            implementation("com.google.android.gms:play-services-location:20.0.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("com.google.android.gms:play-services:12.0.1")
+            implementation("com.google.android.gms:play-services-maps:18.2.0")
+            implementation("com.google.android.gms:play-services-location:21.3.0")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

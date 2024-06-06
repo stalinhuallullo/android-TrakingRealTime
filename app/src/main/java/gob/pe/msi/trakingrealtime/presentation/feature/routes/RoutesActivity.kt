@@ -1,4 +1,4 @@
-package gob.pe.msi.trakingrealtime.presentation.routes
+package gob.pe.msi.trakingrealtime.presentation.feature.routes
 
 import android.graphics.PorterDuff
 import android.os.Bundle

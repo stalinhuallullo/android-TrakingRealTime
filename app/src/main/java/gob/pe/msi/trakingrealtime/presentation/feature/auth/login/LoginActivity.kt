@@ -1,4 +1,4 @@
-package gob.pe.msi.trakingrealtime.presentation.auth.login
+package gob.pe.msi.trakingrealtime.presentation.feature.auth.login
 
 import android.content.Intent
 import android.os.Bundle
@@ -11,7 +11,7 @@ import androidx.appcompat.widget.AppCompatButton
 import com.google.android.material.snackbar.Snackbar
 import gob.pe.msi.trakingrealtime.R
 import gob.pe.msi.trakingrealtime.presentation.MainActivity
-import gob.pe.msi.trakingrealtime.presentation.dashboard.DashboardActivity
+import gob.pe.msi.trakingrealtime.presentation.feature.dashboard.DashboardActivity
 import gob.pe.msi.trakingrealtime.utils.Tools
 
 class LoginActivity : AppCompatActivity(), View.OnClickListener {
